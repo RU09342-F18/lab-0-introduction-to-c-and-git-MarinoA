@@ -4,7 +4,7 @@
  *  Created on: Aug 22, 2017
  * 	Last Edited: Sept 7, 2018
  *      Author: Russell Trafford
- */
+ 
 
 /* Your assignment is to take the math function and implement at least the following functions:
  * + Add (num1 + num2)
@@ -25,5 +25,11 @@
 
 //Part of your documentation should be listing the valid inputs and outputs for the functions you create.
 int math(int num1, int num2, char Operator);
-
+//global variables
+int num1;
+int num2;
+int ans;
+char Operator;
 #endif /* MATH_H_ */
+
+
