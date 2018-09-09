@@ -26,10 +26,10 @@
 //Part of your documentation should be listing the valid inputs and outputs for the functions you create.
 int math(int num1, int num2, char Operator);
 //global variables
-int num1;
-int num2;
-int ans;
-char Operator;
+int num1; //operand 1
+int num2; //operand 2
+int ans; //variable for storing answer of operation 
+char Operator; //character which determines which operation is being performed 
 #endif /* MATH_H_ */
 
 
