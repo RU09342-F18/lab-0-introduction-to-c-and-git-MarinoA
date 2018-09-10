@@ -3,6 +3,7 @@ Embedded Systems Section 3
 Due by 9/10/2018
 Created September 8, 2018
 Version 1.0 – Lasted updated September 10, 2018 
+Version 1.1 - fixed error when dividing by zero. September 10, 2018
 ##############################################
 Included files: 
 math.h
