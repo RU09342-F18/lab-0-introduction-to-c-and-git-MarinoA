@@ -73,14 +73,26 @@ int math(int num1, int num2, char Operator) //Function to perform calculations
 		printf("PRODUCT: %d\n", ans);
 		break;
 
-	case '/': //division 
+	case '/': //division
+		if (num2 == 0){
+			printf("Please enter non-zero value for num2.");
+			ans = 0;
+		}
+		else {
 		ans = num1 / num2;
 		printf("QUOTIENT: %d\n", ans);
+		}
 		break;
 
 	case '%': //modulus 
+		if (num2 == 0){
+			printf("Please enter non-zero value for num2.");
+			ans = 0;
+		}
+		else {
 		ans = num1 % num2;
 		printf("MODULUS: %d\n", ans);
+		}
 		break;
 
 	case '<': //shift left num1 by amount num2
