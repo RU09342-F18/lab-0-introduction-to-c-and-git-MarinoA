@@ -74,7 +74,7 @@ int math(int num1, int num2, char Operator) //Function to perform calculations
 		break;
 
 	case '/': //division
-		if (num2 == 0){
+		if (num2 == 0){ //prevents divide by zero 
 			printf("Please enter non-zero value for num2.");
 			ans = 0;
 		}
@@ -85,7 +85,7 @@ int math(int num1, int num2, char Operator) //Function to perform calculations
 		break;
 
 	case '%': //modulus 
-		if (num2 == 0){
+		if (num2 == 0){ //prevents divide by zero 
 			printf("Please enter non-zero value for num2.");
 			ans = 0;
 		}
